@@ -1,0 +1,22 @@
+{
+  "name": "webfit-markup",
+  "version": "0.0.1",
+  "description": "The webfit markup projekt",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "php -S localhost:9090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWebFit/WebFit-Markup.git"
+  },
+  "author": "Projekt Webfit Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamWebFit/WebFit-Markup/issues"
+  },
+  "homepage": "https://github.com/TeamWebFit/WebFit-Markup#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}

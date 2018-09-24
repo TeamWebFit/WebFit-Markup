@@ -21,6 +21,7 @@ include ("components/header.php");
             <h3>Komponenten</h3>
             <ul>
                 <li><a href="index.php">How-To-Component</a></li>
+                <li><a href="button-examples.php">Buttons</a></li>
             </ul>
         </div>
         <div class="col-md-6">

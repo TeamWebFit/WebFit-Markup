@@ -22,11 +22,14 @@ include ("components/header.php");
             <ul>
                 <li><a href="index.php">How-To-Component</a></li>
                 <li><a href="button-examples.php">Buttons</a></li>
+                <li><a href="animation-examples.php">Animations</a></li>
             </ul>
         </div>
         <div class="col-md-6">
             <h3>Beispiel-Seiten</h3>
                 <li><a href="index.php">Demo-Page</a></li>
+                <li><a href="https://daneden.github.io/animate.css/" target="_blank">animate.css | Animationen</a></li>
+                <li><a href="https://www.youtube.com/watch?v=S2KCXKAView&t=434s" target="_blank">animate.css | Tutorial (ab Minute 7)</a></li>
         </div>
     </div>
 </div>

@@ -37,9 +37,10 @@
           <label class="sr-only" for="inlineFormInputGroup">password</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
-              <div class="input-group-text"><i class="fas fa-lock"></i></i></div>
+              <div class="input-group-text"><i class="fas fa-lock"></i></div>
             </div>
             <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="password">
+            <div class="input-group-text"><i class="fas fa-eye"></i></div>
       </div>
           </div>
 

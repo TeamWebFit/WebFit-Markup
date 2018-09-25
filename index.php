@@ -22,6 +22,7 @@ include ("components/header.php");
             <ul>
                 <li><a href="index.php">How-To-Component</a></li>
                 <li><a href="button-examples.php">Buttons</a></li>
+                <li><a href="form-examples.php">Form</a></li>
             </ul>
         </div>
         <div class="col-md-6">

@@ -9,3 +9,90 @@
 hr {
     margin: 5%;
 }
+
+/*2. Form*/
+
+/*Formular-Komponente*/
+/*Allgemein*/
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  padding: 20px;
+}
+
+/*Formular allgemein*/
+form {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#inputState, .form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #333333;
+}
+
+input::-webkit-input-placeholder {
+  color: #7db9e8 !important;
+}
+
+.blue option {
+  color: #7db9e8;
+}
+
+select {
+  border-radius: 0;
+}
+
+.form-check {
+  display: inline;
+}
+
+.form-group {
+  display: block;
+}
+
+input {
+  color: #9FC9EB;
+}
+
+.custom-select {
+  border-bottom: 1px solid #333333;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.form-check-label {
+  padding-right: 40px;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border-bottom: 1px solid #333333;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/*Login Formular Icons*/
+.fa, .fas {
+  background: -webkit-linear-gradient(left, #7db9e8 0%, #ff6666 50%, #ffcc66 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/*Form-Ende*/

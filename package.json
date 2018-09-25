@@ -18,5 +18,7 @@
   },
   "homepage": "https://github.com/TeamWebFit/WebFit-Markup#readme",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
 }

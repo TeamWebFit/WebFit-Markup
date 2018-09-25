@@ -38,7 +38,7 @@
           <br><br>
 </div>
 
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+         <?php include ("components/button_basic.php")
 
 
   </form>

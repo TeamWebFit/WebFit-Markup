@@ -38,7 +38,8 @@
           <br><br>
 </div>
 
-         <?php include ("components/button_basic.php")
+<br />
+         <?php include ("components/button_basic.php") ?>
 
 
   </form>

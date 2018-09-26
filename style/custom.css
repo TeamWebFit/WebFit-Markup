@@ -2,6 +2,7 @@
 **Contents**
 1. Buttons
 2. Form
+3. Alerts
 */
 
 body {
@@ -288,12 +289,237 @@ input {
 }
 
 /*Login Formular Icons*/
-.fa, .fas {
+.input-group-text .fa {
   background: -webkit-linear-gradient(left, #7db9e8 0%, #ff6666 50%, #ffcc66 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /*Form-Ende*/
+
+/*3. Alerts*/
+.alertgrad {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	border: 0px solid transparent;
+	border-radius: 7px;
+	background: white;
+	background-clip: padding-box;
+	font-family: Lato;
+	color: #333333;
+}
+.alertgrad::after {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: -7px;
+	right: 0px;
+	background: linear-gradient(to bottom, #9FC9EB, #FF6666, #FFCC66);
+	content: '';
+	z-index: -1;
+	border-radius: 7px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.18);
+}
+.alertgrad h3 {
+  font-style: normal;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 15px 40px 0px 30px;
+}
+.alertgrad p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0px 30px 10px 30px;
+}
+/*Blue Alert*/
+.alertblue {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	border: 0px solid transparent;
+	border-radius: 7px;
+	background: white;
+	background-clip: padding-box;
+	font-family: Lato;
+	color: #333333;
+}
+.alertblue::after {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: -7px;
+	right: 0px;
+	background: #9FC9EB;
+	content: '';
+	z-index: -1;
+	border-radius: 7px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.18);
+}
+.alertblue h3 {
+  font-style: normal;
+	font-size: 30px;
+	color: #9FC9EB;
+	font-weight: 700;
+	padding: 15px 40px 0px 30px;
+}
+.alertblue p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0px 30px 10px 30px;
+}
+/*Yellow Alert*/
+.alertyellow {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	border: 0px solid transparent;
+	border-radius: 7px;
+	background: white;
+	background-clip: padding-box;
+	font-family: Lato;
+	color: #333333;
+}
+.alertyellow::after {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: -7px;
+	right: 0px;
+	background: #FFCC66;
+	content: '';
+	z-index: -1;
+	border-radius: 7px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.18);
+}
+.alertyellow h3 {
+  font-style: normal;
+	font-size: 30px;
+	color: #FFCC66;
+	font-weight: 700;
+	padding: 15px 40px 0px 30px;
+}
+.alertyellow p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0px 30px 10px 30px;
+}
+/*Red Alert*/
+.alertred {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	border: 0px solid transparent;
+	border-radius: 7px;
+	background: white;
+	background-clip: padding-box;
+	font-family: Lato;
+	color: #333333;
+}
+.alertred::after {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: -7px;
+	right: 0px;
+	background: #FF6666;
+	content: '';
+	z-index: -1;
+	border-radius: 7px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.18);
+}
+.alertred h3 {
+  font-style: normal;
+	font-size: 30px;
+	color: #FF6666;
+	font-weight: 700;
+	padding: 15px 40px 0px 30px;
+}
+.alertred p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0px 30px 10px 30px;
+}
+/*dark Alert*/
+.alertdark {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+	border: 0px solid transparent;
+	border-radius: 7px;
+	background: white;
+	background-clip: padding-box;
+  font-family: Lato;
+	color: #333333;
+}
+.alertdark::after {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: -7px;
+	right: 0px;
+	background: #333333;
+	content: '';
+	z-index: -1;
+	border-radius: 7px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.18);
+}
+.alertdark h3 {
+  font-style: normal;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 15px 40px 0px 30px;
+}
+.alertdark p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0px 30px 10px 30px;
+}
+.alertgrad .fa {
+  color: #333333;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	font-size: 25px;
+}
+.alertblue .fa {
+  color: #9FC9EB;
+  position: absolute;
+	right: 25px;
+	top: 25px;
+	font-size: 25px;
+}
+.alertyellow .fa {
+  color: #FFCC66;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	font-size: 25px;
+}
+.alertred .fa {
+  color: #FF6666;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	font-size: 25px;
+}
+.alertdark .fa {
+  color: #333333;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	font-size: 25px;
+}
+/*Alerts-Ende*/
 
 /*4. Add Button*/
 

@@ -65,6 +65,14 @@ include ("components/header.php");
     </div>
   </div>
     <hr />
+  <div class="container">
+    <div class="col-md-6">
+      <br /><br />
+      <h4>Button Rund:</h4>
+      <p>class = btn-round</p>
+      <?php include ("components/button_round.php") ?>
+    </div>
+  </div>
 
 
 <?php

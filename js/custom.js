@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+    //animation
     $(function(){
       //pulse
       $('.animate-clickPulse').click(function(){
@@ -31,5 +32,6 @@ $( document ).ready(function() {
           $(elem).removeClass('animated '+ anim);
         }, 1000);
       }
-    })
+    })//end animation
+
 });//End document ready

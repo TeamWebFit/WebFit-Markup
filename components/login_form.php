@@ -9,7 +9,7 @@
         <label class="sr-only" for="inlineFormInputGroup">email</label>
         <div class="input-group mb-2">
           <div class="input-group-prepend">
-            <div class="input-group-text"><i class="la la-user"></i></div>
+            <div class="input-group-text"><i class="fa fa-user"></i></div>
           </div>
           <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="email">
       </div>
@@ -19,10 +19,10 @@
           <label class="sr-only" for="inlineFormInputGroup">password</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
-              <div class="input-group-text"><i class="la la-lock"></i></div>
+              <div class="input-group-text"><i class="fa fa-lock"></i></div>
             </div>
             <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="password">
-            <div class="input-group-text"><i class="la la-eye"></i></div>
+            <div class="input-group-text"><i class="fa fa-eye"></i></div>
       </div>
           </div>
 

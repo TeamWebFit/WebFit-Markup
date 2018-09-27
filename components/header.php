@@ -16,5 +16,6 @@
 
     <title>WebFit Markup</title>
   </head>
-
   <body>
+    <?php include ("components/menu_header.php") ?>
+    <div class="main">

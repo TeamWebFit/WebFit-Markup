@@ -2,10 +2,13 @@
 **Contents**
 1. Buttons
 2. Form
+5. Menu
+5.1 Header-Menu
 */
 
 body {
   font-family: 'Lato', sans-serif;
+  z-index: 0;
 }
 
 h3 {
@@ -16,8 +19,14 @@ h3 {
 
 h2 {
   padding: 20px;
-
 }
+
+.row{
+  display: block;
+  z-index: -5;
+}
+
+
 
 .top-abstand{
     margin-top: 5%;
@@ -196,8 +205,8 @@ hr {
 }
 
 .btn-round{
-  width: 70px;
-  height: 70px;
+  width: 4em;
+  height: 4em;
   padding-top: 4%;
   font-weight: 900;
   font-size: 13pt;
@@ -479,3 +488,143 @@ input {
 }
 
 /*End Add Button*/
+
+/*5. Menu*/
+/*5.1 Header-Menu*/
+.main{
+  margin-top:100px;
+  margin-bottom: 80px;
+}
+
+header{
+  position: fixed;
+  z-index: 999;
+  margin-top: -100px;
+}
+
+#nav-header{
+  padding-left: 4%;
+  padding-bottom: 2%;
+  background-color: #F3F4F5;
+  box-shadow: 2px 2px 8px 1px #d9d9d9;
+  height: 80px;
+  z-index: 1;
+}
+
+#logo{
+  margin-top: 2%;
+}
+
+#menu-icon{
+  font-size: 40pt !important;
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-top: 2%;
+  margin-right: 2%;
+  z-index: 20;
+}
+
+#toggle-menu{
+  display: none;
+  position: relative;
+  float: right;
+  padding-right: 2%;
+  background-color: black;
+  color: white;
+  z-index: 20;
+  background-color: #F3F4F5;
+  box-shadow: 2px 2px 8px 3px #d9d9d9;
+  border-radius: 0 0 0 180px;
+  width: 200px;
+  height: 200px;
+}
+
+#x-icon{
+  position: relative;
+  float: right;
+  font-size: 30pt !important;
+  margin-top: 20px;
+  margin-right: 4%;
+}
+
+.btn-toggle{
+  width: 3.5em !important;
+  height: 3.5em !important;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+#btn-toggle-left{
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+#btn-toggle-middle{
+  padding-top: 0.6em;
+  margin-top: 0.7em;
+  margin-left: 3em;
+}
+
+#btn-toggle-right{
+  padding-top: 0.6em;
+  margin-top: -1em;
+  margin-left: 7em;
+}
+
+.icon-toggle{
+  font-size: 25pt !important;
+}
+/*End Header-Menu*/
+/*5.2 Footer-Menu*/
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -0.7em;
+}
+
+#nav-footer{
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+  padding-right: 4%;
+  padding-top: 3%;
+  height: 80px;
+  z-index: 1;
+  background-color: #F3F4F5;
+}
+
+.li-footer{
+  float: left;
+  display: inline-block;
+}
+
+#ul-left-footer{
+  margin: 0;
+  list-style: none;
+  float: left;
+  padding-left: 0% !important;
+}
+
+#ul-right-footer{
+  margin: 0;
+  list-style: none;
+  float: right;
+  padding-left: 0% !important;
+}
+
+.li-footer-left{
+  margin-left: 3em;
+}
+
+.li-footer-right{
+  margin-right: 3em;
+}
+
+.icons-footer{
+  font-size: 30pt !important;
+}
+
+/*End Footer-Menu*/
+/*End Menu*/

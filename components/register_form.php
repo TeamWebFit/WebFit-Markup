@@ -5,21 +5,21 @@
 
 
     <div class="form-group">
-      <label for="exampleInputEmail1"></label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name">
+      <label for="InputName"></label>
+      <input type="text" class="form-control" id="InputName" placeholder="name">
   </div>
       <div class="form-group">
-        <label for="exampleInputEmail1"></label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nachname">
+        <label for="InputNachname"></label>
+        <input type="text" class="form-control" id="InputNachname" placeholder="nachname">
       </div>
 
         <div class="form-group">
-          <label for="exampleInputEmail1"></label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+          <label for="InputEmail"></label>
+          <input type="email" class="form-control" id="InputEmail" placeholder="email">
       </div>
           <div class="form-group">
-            <label for="exampleInputPassword1"></label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="passwort">
+            <label for="InputPassword"></label>
+            <input type="password" class="form-control" id="InputPassword" placeholder="passwort">
       </div>
 
 
@@ -96,31 +96,25 @@
             <br>
 
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-              <label class="form-check-label" for="exampleRadios1">
-        weiblich
-      </label>
+              <input class="form-check-input" type="radio" name="Radios" id="Radio1" value="option1">
+              <label class="form-check-label" for="Radio1"> weiblich </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-              <label class="form-check-label" for="exampleRadios2">
-        männlich
-      </label>
+              <input class="form-check-input" type="radio" name="Radios" id="Radio2" value="option2">
+              <label class="form-check-label" for="Radio2"> männlich </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option3">
-              <label class="form-check-label" for="exampleRadios2">
-        divers
-      </label>
+              <input class="form-check-input" type="radio" name="Radios" id="Radio3" value="option3">
+              <label class="form-check-label" for="Radio3"> divers </label>
             </div>
             <br><br>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">AGBs</label>
+              <input type="checkbox" class="form-check-input" id="Check1">
+              <label class="form-check-label" for="Check1">AGBs</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Datenschutzbedingungen</label>
+              <input type="checkbox" class="form-check-input" id="Check2">
+              <label class="form-check-label" for="Check2">Datenschutzbedingungen</label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
   </form>

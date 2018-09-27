@@ -49,11 +49,9 @@ $( document ).ready(function() {
       $(".overlay-fab").animate({ "margin-top": "300px" }, { duration: 500, queue: false });
       $(".overlay-fab").hide();
     })
-    
-});//End document ready
 
-    //menu_header
-    $('#menu-icon').click(function(){
+     //menu_header
+     $('#menu-icon').click(function(){
       $('#toggle-menu').toggle();
       $('#menu-icon').hide();
     })
@@ -61,5 +59,7 @@ $( document ).ready(function() {
       $('#toggle-menu').toggle();
       $('#menu-icon').show();
     })
+    
 });//End document ready
+
 

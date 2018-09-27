@@ -18,3 +18,5 @@
   </head>
 
   <body>
+  <div class="overlay">
+  </div>

@@ -3,10 +3,13 @@
 1. Buttons
 2. Form
 3. Alerts
+4. Add-Button
 */
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #f3f4f5;
+  
 }
 
 h3 {
@@ -197,8 +200,8 @@ hr {
 }
 
 .btn-round{
-  width: 70px;
-  height: 70px;
+  width: 4em;
+  height: 4em;
   padding-top: 4%;
   font-weight: 900;
   font-size: 13pt;
@@ -523,185 +526,46 @@ input {
 
 /*4. Add Button*/
 
-.add-button {
+.fab{
   position: absolute;
-  top: 5em;
-  left: 10em;
-  width: 56px;
-  height: 56px;
-  overflow: visible;
-  -webkit-transition: transform .4s cubic-bezier(.58,-0.37,.45,1.46),
-    color 0s ease .4s,font-size .2s;
-  -moz-transition: transform .4s cubic-bezier(.58,-0.37,.45,1.46),
-    color 0s ease .4s,font-size .2s;
-  transition: transform .4s cubic-bezier(.58,-0.37,.45,1.46),
-    color 0s ease .4s,font-size .2s;
-  text-align: center;
-  line-height: 56px;
-  font-size: 28px;
-  color: rgba(255,255,255,1);
+  left: 43%;
+  top: 90%;
 }
 
-.add-button:before {
-  position: relative;
-  z-index: 100;
-  content:"+";
-  color: #333;
+.overlay-fab{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 60%;
+  background-color: white;
+  border-radius: 1em 1em 0px 0px;
+  z-index: 999999;
+  -webkit-box-shadow: -1px -4px 7px 0px rgba(0,0,0,0.27);
+  -moz-box-shadow: -1px -4px 7px 0px rgba(0,0,0,0.27);
+  box-shadow: -1px -4px 7px 0px rgba(0,0,0,0.27);
+  left: 0;
+  opacity: 0;
+  margin-top: 80%;
 }
 
-
-.sub-button {
+.overlay{
+  background-color: rgba(0,0,0,0.8);
+  display: none;
   position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 44;
+}
+
+.fab-title{
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-top: 5%;
   display: inline-block;
-  background: white;
-  background-clip: padding-box;
-  color: #333;
-  width: 28px;
-  height: 28px;
-  line-height:48px;
-  font-size: 12px;
-  /*-webkit-transition: top .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    left .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    bottom .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    right .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    width .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    height .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    transform .1s ease 0s,
-    border-radius .2s  ease .2s;
-   -moz-transition: top .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    left .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    bottom .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    right .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    width .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    height .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    transform .1s ease 0s,
-    border-radius .2s  ease .2s;
-   transition: top .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    left .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    bottom .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    right .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    width .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    height .2s cubic-bezier(.58,-0.37,.45,1.46) .2s,
-    transform .1s ease 0s,
-    border-radius .2s  ease .2s;*/
 }
 
-.sub-button::after {
-   position: absolute;
-   top: -4px; bottom: -4px;
-   left: -4px; right: -4px;
-   background: linear-gradient(to right, #9FC9EB, #FF6666, #FFCC66);
-   content: '';
-   z-index: -1;
-   border-radius: 50%;
- }
-
-.tl {
-  top: 0;
-  left: 0;
-  border-radius: 28px 0 0 0;
-  color: white;
+.fab-subtitle{
+  margin-top: -2%;
 }
-
-.tr {
-  top: 0;
-  right: 0;
-  border-radius: 0 28px 0 0;
-  color: white;
-}
-
-.bl {
-  bottom: 0;
-  left: 0;
-  border-radius: 0 0 0 28px;
-  color: white;
-}
-
-.br {
-  bottom: 0;
-  right: 0;
-  border-radius: 0 0 28px 0;
-  color: white;
-}
-
-
-.tl:before {
-  content:"A";
-}
-
-.tr:before {
-  content:"B";
-}
-
-.bl:before {
-  content:"C";
-}
-
-.br:before {
-  content:"D";
-}
-
-
-.add-button:hover .sub-button {
-  width: 48px;
-  height: 48px;
-
-  color: #fff;
-  -webkit-transition: top .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    left .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    bottom .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    right .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    width .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    height .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    color .3s ease .8s,
-    transform .3s ease .8s,
-    border-radius .4s  ease .6s;
-   -moz-transition: top .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    left .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    bottom .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    right .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    width .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    height .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    color .3s ease .8s,
-    transform .3s ease .8s,
-    border-radius .4s  ease .6s;
-   transition: top .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    left .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    bottom .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    right .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    width .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    height .4s cubic-bezier(.58,-0.37,.45,1.46) .4s,
-    color .3s ease .8s,
-    transform .3s ease .8s,
-    border-radius .4s  ease .6s;
-}
-
-.add-button:hover .tl {
-  top: -25px;
-  left: -25px;
-  border-radius: 28px;
-  color: #333;
-}
-
-.add-button:hover .tr {
-  top: -25px;
-  right: -25px;
-  border-radius: 28px;
-  color: #333;
-}
-
-.add-button:hover .bl {
-  bottom: 33px;
-  left: -83px;
-  border-radius: 28px;
-  color: #333;
-}
-
-.add-button:hover .br {
-  bottom: 33px;
-  right: -83px;
-  border-radius: 28px;
-  color: #333;
-}
-
 /*End Add Button*/

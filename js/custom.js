@@ -34,4 +34,13 @@ $( document ).ready(function() {
       }
     })//end animation
 
+    //menu_header
+    $('#menu-icon').click(function(){
+      $('#toggle-menu').toggle();
+      $('#menu-icon').hide();
+    })
+    $('#x-icon').click(function(){
+      $('#toggle-menu').toggle();
+      $('#menu-icon').show();
+    })
 });//End document ready

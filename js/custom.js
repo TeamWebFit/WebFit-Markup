@@ -32,6 +32,34 @@ $( document ).ready(function() {
           $(elem).removeClass('animated '+ anim);
         }, 1000);
       }
-    })//end animation
+    })//end animation 
 
+
+    //FAB-Button
+    $(".fab").click(function(){
+      $(".overlay").fadeIn();
+      $(".overlay-fab").show();
+      $(".overlay-fab").animate({ opacity: 1 }, { duration: 100, queue: false });
+      $(".overlay-fab").animate({ "margin-top": "0px" }, { duration: 500, queue: false });
+    });
+
+    $(".overlay").click(function(){
+      $(".overlay").fadeOut();
+      $(".overlay-fab").animate({ opacity: 0 }, { duration: 100, queue: false });
+      $(".overlay-fab").animate({ "margin-top": "300px" }, { duration: 500, queue: false });
+      $(".overlay-fab").hide();
+    })
+    
 });//End document ready
+
+    //menu_header
+    $('#menu-icon').click(function(){
+      $('#toggle-menu').toggle();
+      $('#menu-icon').hide();
+    })
+    $('#x-icon').click(function(){
+      $('#toggle-menu').toggle();
+      $('#menu-icon').show();
+    })
+});//End document ready
+

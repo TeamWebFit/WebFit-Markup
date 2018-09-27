@@ -6,22 +6,22 @@
     <div class="form-row align-items-center">
 
       <div class="col-12">
-        <label class="sr-only" for="inlineFormInputGroup">email</label>
+        <label class="sr-only" for="inlineFormInputGroup1">email</label>
         <div class="input-group mb-2">
           <div class="input-group-prepend">
             <div class="input-group-text"><i class="fa fa-user"></i></div>
           </div>
-          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="email">
+          <input type="text" class="form-control" id="inlineFormInputGroup1" placeholder="email">
       </div>
         </div>
 
         <div class="col-12">
-          <label class="sr-only" for="inlineFormInputGroup">password</label>
+          <label class="sr-only" for="inlineFormInputGroup2">password</label>
           <div class="input-group mb-2">
             <div class="input-group-prepend">
               <div class="input-group-text"><i class="fa fa-lock"></i></div>
             </div>
-            <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="password">
+            <input type="password" class="form-control" id="inlineFormInputGroup2" placeholder="password">
             <div class="input-group-text"><i class="fa fa-eye"></i></div>
       </div>
           </div>

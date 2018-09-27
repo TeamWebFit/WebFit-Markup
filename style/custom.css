@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url("img/WebFit_background.png");
 }
 
 h3 {
@@ -705,3 +706,19 @@ input {
 }
 
 /*End Add Button*/
+
+
+/*WebFit Home*/
+
+.graph-box{
+    width: 613px;
+    height: 392px;
+    border-radius: 10px;
+    background-color: rgba(243, 244, 245, 0.5);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+ }
+
+
+
+/*End WebFit Home*/

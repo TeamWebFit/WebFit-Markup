@@ -1,3 +1,5 @@
+</div><!--von Main-Tag, steht bei header.php-->
+<?php include ("components/menu_footer.php") ?>
  <br /><br />
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

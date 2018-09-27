@@ -34,6 +34,7 @@ $( document ).ready(function() {
       }
     })//end animation 
 
+
     //FAB-Button
     $(".fab").click(function(){
       $(".overlay").fadeIn();
@@ -50,3 +51,15 @@ $( document ).ready(function() {
     })
     
 });//End document ready
+
+    //menu_header
+    $('#menu-icon').click(function(){
+      $('#toggle-menu').toggle();
+      $('#menu-icon').hide();
+    })
+    $('#x-icon').click(function(){
+      $('#toggle-menu').toggle();
+      $('#menu-icon').show();
+    })
+});//End document ready
+

@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
 
+    <script src="js/calendar.js"></script>
 
     <title>WebFit Markup</title>
   </head>
@@ -21,4 +22,3 @@
   </div>
     <?php include ("components/menu_header.php") ?>
     <div class="main">
-

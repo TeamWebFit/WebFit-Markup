@@ -1,6 +1,13 @@
 <header>
-  <nav  id="nav-header">
-    <a href="#"><img id="logo" src="../img/logo.png" width="20%"/></a>
+  <nav id="nav-header">
+    <ul id="ul-left-header">
+      <li id="" class="li-header li-header-left"><a href="#"><i class="fa fa-flag-o icons-header"></i></a></li>
+      <li id="" class="li-header li-header-left"><a href="#"><i class="fa fa-soccer-ball-o icons-header"></i></a></li>
+      <li id="" class="li-header li-header-left"><a href="#"><i class="fa fa-envelope icons-header"></i></a></li>
+      <li id="" class="li-header li-header-left"><a href="#"><i class="fa fa-users icons-header"></i></a></li>
+    </ul>
+
+    <a href="#"><img id="logo" src="../img/logo.png" width="10%"/></a>
     <div id="toggle-menu">
       <i id="x-icon" class="fa fa-times"></i>
       <div id="btns-toggle">

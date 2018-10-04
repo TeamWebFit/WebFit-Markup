@@ -833,8 +833,18 @@ img.kacheln {
   margin-right: auto;
 }
 
+.kacheln{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .kachelnSquare {
   display: inline;
+}
+
+.kSquare{
+
 }
 
 /*Kalender*/
@@ -924,6 +934,11 @@ img.kacheln {
   margin-top: 1%;
 }
 
+.btn_calendar{
+  background-color: transparent;
+  border: none;
+  float: right;
+}
 
 
 /*End WebFit Home*/
@@ -976,6 +991,17 @@ img.kacheln {
   .kachelnSquare {
     display: none;
   }
+
+  .kSquare{
+    display: none;
+  }
+
+  .rmobile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
   #myform.calendar_form{
     display: none;

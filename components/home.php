@@ -129,11 +129,11 @@
       <br />
 </div>
     </div>
-    <div class="row">
+    <div class="row rmobile">
       <br />
       <br />
       <br />
-      <div class="col">
+      <div class="col kSquare">
         <div class="kachelnSquare">
           <img src="/img/ActivityCard.png" width="20%" height="auto" alt="Card image">
           <img src="/img/ActivityCard.png" width="20%" height="auto" alt="Card image">
@@ -155,31 +155,11 @@
 <div class="col">
   <form class="calendar_form" id="myform">
     <p>
-      <button type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      <button type="button" class="btn_calendar" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     <i class="fa fa-plus-circle addWorkout"></i>
   </button>
     </p>
-    <div class="collapse" id="collapseExample">
-      <div class="card card-body">
-
-        <!--  <div class="form-group">
-            <input type="text" class="form-control" id="InputSportart" placeholder="Sportart">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="InputZeit" placeholder="Zeit">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="InputKalorien" placeholder="Verbrannte Kalorien">
-          </div>
-          <div>
-              <label>Sportart-Tag</label>
-              <br />
-              <select class="custom-select my-1 mr-sm-2 col-md-3" id="inlineFormCustomSelectPref">
-            <option selected>dd</option>
-          </div>
-              <br />
-          <button type="submit" class="btn btn-primary">Submit</button>
--->
+    
 
     <output id="datum" size=30 />
   </form>
